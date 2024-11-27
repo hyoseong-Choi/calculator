@@ -8,3 +8,4 @@ RUN apt install -y python3 nodejs gcc g++
 RUN apt install -y golang
 RUN npm install -g pkg
 RUN apt clean
+ENV PATH=$PATH:/root/.sdkman/candidates/kotlin/current/bin
